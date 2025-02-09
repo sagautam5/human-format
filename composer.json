@@ -1,0 +1,27 @@
+{
+    "name": "sagautam5/human-format",
+    "description": "A package to format and parse numbers",
+    "type": "project",
+    "require-dev": {
+        "phpstan/phpstan": "^2.1",
+        "pestphp/pest": "^3.7"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Sagautam5\\HumanFormat\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Sagar Gautam",
+            "email": "sagautam5@gmail.com"
+        }
+    ],
+    "require": {},
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    }
+}
